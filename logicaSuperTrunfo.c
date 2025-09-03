@@ -2,18 +2,21 @@
 
 int main() {
    
-nome = input("Nome da Cidade: ")
-populacao = int(input("População: "))
-area = float(input("Área (km²): "))
-pib = float(input("PIB (em reais): "))
+Cadastro da Carta 1:
+Estado: SP
+Código da carta: A1
+Nome da cidade: São Paulo
+População (habitantes): 12325000
+Área (km²): 1521.11 
+PIB (em reais): 56724.32
 
-# Cálculos (variáveis do tipo float)
-densidade populacional = float(populacao) / area
-pib per capita = pib / float(populacao)
+Cadastro da Carta 2:
+Estado: RJ
+Código da carta: B1
+Nome da cidade: Rio de Janeiro
+População (habitantes): 6748000
+Área (km²): 1200.3
+PIB (em reais): 44532.91
 
-print(f"\nNome da Cidade: {nome}")
-print(f"Densidade Populacional: {densidade_populacional:.2f} hab/km²")
-print(f"PIB per Capita: {pib_per_capita:.2f} reais")
 
-    return 0;
 }
